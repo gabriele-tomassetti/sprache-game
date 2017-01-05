@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DB944E7A-58BD-4A01-B03E-622D438B907C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{82817679-DFE4-4FCD-A02E-E687E6CBABC7}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SpracheGameCore", "src\SpracheGameCore\SpracheGameCore.xproj", "{C28954C8-1F66-46F4-AD85-199D8ADE9012}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{FE9A26E3-3126-4AA7-8133-E225F5790DA7}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SpracheGameCore.Tests", "test\SpracheGameCore.Tests\SpracheGameCore.Tests.xproj", "{542A4425-2AD3-442B-A89C-DE8445446295}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C28954C8-1F66-46F4-AD85-199D8ADE9012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C28954C8-1F66-46F4-AD85-199D8ADE9012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C28954C8-1F66-46F4-AD85-199D8ADE9012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C28954C8-1F66-46F4-AD85-199D8ADE9012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{542A4425-2AD3-442B-A89C-DE8445446295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{542A4425-2AD3-442B-A89C-DE8445446295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{542A4425-2AD3-442B-A89C-DE8445446295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{542A4425-2AD3-442B-A89C-DE8445446295}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C28954C8-1F66-46F4-AD85-199D8ADE9012} = {DB944E7A-58BD-4A01-B03E-622D438B907C}
+		{542A4425-2AD3-442B-A89C-DE8445446295} = {FE9A26E3-3126-4AA7-8133-E225F5790DA7}
+	EndGlobalSection
+EndGlobal
