@@ -8,4 +8,4 @@ Everybody loves ANTLR, but sometimes it may be overkill. On the other hand, a re
 
 It is a simple but effective tool, whose main limitation is being character-based. In other words, it works on characters and not on tokens. The advantage is that you can work directly with code and you don’t have to use external tools to generate the parser.
 
-**You can read an article on the example on [Create a simple parser in C# with Sprache](https://tomassetti.me/create-a-simple-parser-in-c-with-sprache)**
+**You can read an article on the example on [Create a simple parser in C# with Sprache](https://tomassetti.me/create-simple-parser-c-sprache/)**
